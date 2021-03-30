@@ -128,8 +128,9 @@ h3 {
     ),
     url(../images/bgc.jpeg);
   background-color: #2f303a;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   margin-right: auto;
   margin-left: auto;
   padding: 200px 0px;
