@@ -18,6 +18,7 @@ body {
 }
 .header {
   border-bottom: 1px solid #ececec;
+  max-width: 1600px;
 }
 .section {
   padding: 94px 0px;
@@ -69,7 +70,8 @@ h3 {
   background-color: var(--hover-color);
 }
 .link,
-.link-address {
+.link-address,
+.products-link {
   text-decoration: none;
   color: var(--h-color);
 }
@@ -90,6 +92,7 @@ h3 {
   line-height: 1.19;
   text-decoration: none;
   color: #000000;
+  margin-right: 93px;
 }
 .web {
   color: var(--hover-color);
@@ -176,6 +179,7 @@ h3 {
   margin-bottom: 10px;
   margin-top: 30px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .adv-li,
 .pict-li,
@@ -202,7 +206,7 @@ h3 {
 
 .names {
   font-weight: 500;
-  line-height: 1.18;
+  line-height: 1.17;
   text-align: center;
   font-size: 16px;
   margin-top: 30px;
@@ -283,6 +287,10 @@ h3 {
 }
 
 .nav-li:not(:last-child),
+.nav-li:not(:first-child) {
+  margin-right: 50px;
+}
+
 .contacts:not(:last-child) {
   margin-right: 30px;
 }
@@ -313,8 +321,6 @@ h3 {
 }
 .icon {
   fill: #afb1b8;
-  width: 20px;
-  height: 20px;
   margin: 12px;
 }
 .icon:hover {
@@ -368,14 +374,17 @@ h3 {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-left: auto;
 }
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
 }
-.container > .our-address {
+.our-address {
   margin-bottom: 9px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 .our-address,
 .first-link {
