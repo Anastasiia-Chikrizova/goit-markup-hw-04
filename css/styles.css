@@ -217,6 +217,7 @@ h3 {
 .social-link {
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 .social-item {
   margin-top: 0px;
@@ -354,10 +355,7 @@ h3 {
 .ourteams-ul {
   display: flex;
 }
-.social-link {
-  display: flex;
-  justify-content: center;
-}
+
 .ourteam-item {
   width: 270px;
   margin-right: 30px;
