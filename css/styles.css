@@ -18,6 +18,9 @@ body {
 }
 .header {
   border-bottom: 1px solid #ececec;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section {
   padding: 94px 0px;
@@ -96,7 +99,10 @@ h3 {
   line-height: 1.19;
   text-decoration: none;
   color: #000000;
-  margin-right: 93px;
+  letter-spacing: 0.03em;
+}
+.web-nav {
+  margin-right: 43px;
 }
 .web {
   color: var(--hover-color);
@@ -112,20 +118,29 @@ h3 {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
-.footer {
-  color: var(--frame-color);
-  background-color: #2f303a;
-}
-
-.our-address {
-  line-height: 1.17;
+.link-footer {
+  color: var(--text-color);
+  font-weight: 400;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   font-style: normal;
 }
-
-.logo-footer {
+.footer {
   color: var(--frame-color);
+  background-color: #2f303a;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-address {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .main-section {
@@ -141,11 +156,10 @@ h3 {
   background-repeat: no-repeat;
   margin-right: auto;
   margin-left: auto;
-  padding: 200px 0px;
   max-width: 1600px;
-  height: 600px;
   justify-content: center;
   text-align: center;
+  padding: 200px 0px;
 }
 .main-section h1 {
   color: var(--frame-color);
@@ -208,7 +222,10 @@ h3 {
   margin-top: 0px;
   margin-right: 10px;
 }
-
+.social-items {
+  margin-top: 72px;
+  padding-bottom: 100px;
+}
 .names {
   font-weight: 500;
   line-height: 1.17;
@@ -230,6 +247,9 @@ h3 {
   background-color: #f5f4fa;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
 }
 .ourteams > .list {
   background-color: var(--frame-color);
@@ -287,10 +307,14 @@ h3 {
 }
 .nav-cont {
   display: flex;
-  margin-left: auto;
   align-items: center;
 }
-
+.nav-contacts {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  align-items: baseline;
+}
 .nav-li:not(:last-child),
 .nav-li:not(:first-child) {
   margin-right: 50px;
@@ -299,6 +323,7 @@ h3 {
 .contacts:not(:last-child) {
   margin-right: 30px;
 }
+
 .icon-mail,
 .icon-phone {
   margin-right: 10px;
@@ -322,7 +347,7 @@ h3 {
 
 .nav .link,
 .nav-cont .link-address {
-  display: block;
+  display: inline-block;
   padding: 32px 0px;
 }
 
@@ -332,7 +357,6 @@ h3 {
 .social-link {
   display: flex;
   justify-content: center;
-  padding: 0px 32px 30px 32px;
 }
 .ourteam-item {
   width: 270px;
@@ -365,15 +389,11 @@ h3 {
 .btn-list .items:last-child {
   margin-right: 0px;
 }
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-left: auto;
-  margin-left: auto;
-}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 20px;
+  color: var(--frame-color);
 }
 .our-address {
   margin-bottom: 9px;
@@ -444,7 +464,9 @@ h3 {
   align-items: center;
 }
 .address-item {
-  margin-right: 179px;
+  margin-right: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .social-footer {
   display: flex;
