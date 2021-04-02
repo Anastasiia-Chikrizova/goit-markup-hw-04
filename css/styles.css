@@ -319,22 +319,19 @@ h3 {
   align-items: center;
   align-items: baseline;
 }
-.contacts {
+
+.mobile {
   display: flex;
-  align-items: center;
 }
 .nav-li:not(:last-child),
 .nav-li:not(:first-child) {
   margin-right: 50px;
 }
-
 .contacts:not(:last-child) {
   margin-right: 30px;
 }
 .contacts {
-  display: flex;
   padding: 32px 0;
-  display: block;
 }
 .icon-mail,
 .icon-phone {
